@@ -19,15 +19,15 @@ const parameters = {
 const textureLoader = new THREE.TextureLoader()
 const cubeTextureLoader = new THREE.CubeTextureLoader()
 
-const gradientTexture = textureLoader.load("Textures/gradients/3.jpg")
+const gradientTexture = textureLoader.load("textures/gradients/3.jpg")
 gradientTexture.magFilter = THREE.NearestFilter
 
 // Gold Textures
-const goldColorTexture = textureLoader.load("/Textures/goldBall/goldColor.png")
-const goldRoughnessTexture = textureLoader.load("/Textures/goldBall/goldRoughness.png")
-const goldMetalnessTexture = textureLoader.load("/Textures/goldBall/goldMetalness.png")
-const goldNormalTexture = textureLoader.load("/Textures/goldBall/goldNormal.png")
-const brassColorTexture = textureLoader.load("/Textures/goldBall/brassColor.png")
+const goldColorTexture = textureLoader.load("/textures/goldBall/goldColor.png")
+const goldRoughnessTexture = textureLoader.load("/textures/goldBall/goldRoughness.png")
+const goldMetalnessTexture = textureLoader.load("/textures/goldBall/goldMetalness.png")
+const goldNormalTexture = textureLoader.load("/textures/goldBall/goldNormal.png")
+const brassColorTexture = textureLoader.load("/textures/goldBall/brassColor.png")
 goldColorTexture.minFilter = THREE.NearestFilter
 goldColorTexture.generateMipmaps = false
 goldRoughnessTexture.minFilter = THREE.NearestFilter
@@ -40,8 +40,8 @@ brassColorTexture.minFilter = THREE.NearestFilter
 brassColorTexture.generateMipmaps = false
 
 // Sound Maker Textures
-const woodColorTexture = textureLoader.load("/Textures/soundmaker/woodColor.png")
-const feltColorTexture = textureLoader.load("/Textures/soundmaker/felt.png")
+const woodColorTexture = textureLoader.load("/textures/soundmaker/woodColor.png")
+const feltColorTexture = textureLoader.load("/textures/soundmaker/felt.png")
 woodColorTexture.minFilter = THREE.NearestFilter
 woodColorTexture.generateMipmaps = false
 feltColorTexture.minFilter = THREE.NearestFilter
