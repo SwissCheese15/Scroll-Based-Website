@@ -1,16 +1,15 @@
-# Three.js Journey
+## Scroll Based 3D-Website ✨
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+Live Preview at:
+https://scroll-based-website.vercel.app
 
-``` bash
-# Install dependencies (only the first time)
-npm install
+A website example I made with THREE.js
+- Populated with custom "Meditation" and "Health" related Geometries
+- Mouse induced parallax for immersive experience
+- Scroll triggered animation
 
-# Run the local server at localhost:8080
-npm run dev
 
-# Build for production in the dist/ directory
-npm run build
-```
+
+https://user-images.githubusercontent.com/110164826/227070867-3ad46a71-7d9b-47d0-a80e-40e8eab22211.mov
+
+
