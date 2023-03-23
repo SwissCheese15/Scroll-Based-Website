@@ -19,7 +19,7 @@ const parameters = {
 const textureLoader = new THREE.TextureLoader()
 const cubeTextureLoader = new THREE.CubeTextureLoader()
 
-const gradientTexture = textureLoader.load("textures/gradients/3.jpg")
+const gradientTexture = textureLoader.load("/textures/gradients/3.jpg")
 gradientTexture.magFilter = THREE.NearestFilter
 
 // Gold Textures
