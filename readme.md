@@ -5,7 +5,7 @@ https://scroll-based-website.vercel.app
 
 A website example I made with THREE.js
 - Populated with custom "Meditation" and "Health" related Geometries
-- Mouse induced parallax for immersive experience
+- Userinput induced parallax for immersive experience
 - Scroll triggered animation
 
 
